@@ -1,6 +1,6 @@
 // pages/Ranking.js
 import React, { useState } from 'react';
-import '../style.css';
+import "../App.css";
 
 
 export default function Ranking() {
@@ -18,9 +18,10 @@ export default function Ranking() {
     <div>
       <header className="navbar">
         <div className="nav-left">
-          <a href="/dashboard">Dashboard</a>
-          <a href="/reporte">Reportes</a>
+          <a href="/reporte">Reporte</a>
           <a href="/graficos">Gráficos</a>
+          <a href="/ranking">Ranking</a>
+          <a href="/manifiesto">Manifiesto</a>
         </div>
         <img src="/logo.png" alt="KIA logo" className="logo" />
       </header>

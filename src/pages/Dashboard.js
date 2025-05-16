@@ -1,6 +1,6 @@
 // pages/Dashboard.js
 import React from 'react';
-import '../style.css';
+import "../App.css";
 
 export default function Dashboard() {
   return (
@@ -10,6 +10,7 @@ export default function Dashboard() {
           <a href="/reporte">Reporte</a>
           <a href="/graficos">Gráficos</a>
           <a href="/ranking">Ranking</a>
+          <a href="/manifiesto">Manifiesto</a>
         </div>
         <img src="/logo.png" alt="KIA logo" className="logo" />
       </header>
